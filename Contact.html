@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - MyDegree</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d652b9f554.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"
+          ><img src="images/logo1.png" alt="MyDegree Logo"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+              <a href="course.html">COURSE</a>
+            </li>
+            <li>
+              <a href="blog.html">BLOG</a>
+            </li>
+            <li>
+              <a href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Contact Us</h1>
+    </section>
+
+    <!--------- Contact--------->
+
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.8200685927422!2d77.3318191150806!3d28.545127532452362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce44e80a9461b%3A0x302ec8d3d5cb8d1a!2sAmity%20University%20Noida!5e0!3m2!1sen!2sin!4v1659256492198!5m2!1sen!2sin"
+        width="600"
+        height="400"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>MyDegree University</h5>
+              <p>Noida, UP</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>+1 123-45-6789</h5>
+              <p>Monday to Saturday, 10AM to 6PM</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+              <h5>mydegree@Gmail.com</h5>
+              <p>Email us your queries</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="mailto:humdumkashyap@gmail.com" method="post">
+            <input type="text" name="name" placeholder="Enter Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Email"
+              required
+            />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Enter Subject"
+              required
+            />
+            <textarea
+              rows="8"
+              name="message"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <br /><br />
+    <!-- Footer -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu
+        iaculis urna. Mauris lacus quam, bibendum id tincidunt a, euismod non
+        mi. <br />Fusce non dolor sit amet metus mattis faucibus vitae
+        scelerisque massa. Etiam lacinia bibendum metus.
+      </p>
+      <div class="icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+      </div>
+      <p>All rights reserved by: MyDegree</p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
